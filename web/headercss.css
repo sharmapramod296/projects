@@ -1,0 +1,143 @@
+body
+{
+    width: 100%;
+    margin: 0px;
+}
+
+#bigimage  
+        {
+            position: absolute;
+            top: 160px;
+            height: 400px;
+            width: 100%;
+            border-bottom: greenyellow solid 4px;
+        }
+        
+        #one
+        {
+            background-color: #2831BE;
+            color: white;
+            height: 200px;
+            width: 390px;
+            position: absolute;
+            top: 490px;
+            left: 80px;
+            border-bottom: greenyellow solid 4px;
+        }
+        td
+        {
+            color: white;
+            border: none;
+            outline: none;
+            font-size: 0.8em;
+            
+        }
+        #two
+        {
+            background-color: #2831BE;
+            color: white;
+            height: 200px;
+            width: 390px;
+            position: absolute;
+            top: 490px;
+            left: 520px;
+            border-bottom: greenyellow solid 4px;
+        }
+        #three
+        {
+            background-color: #2831BE;
+            color: white;
+            height: 200px;
+            width: 390px;
+            position: absolute;
+            top: 490px;
+            left: 960px;    
+            border-bottom: greenyellow solid 4px;
+        }
+        #icon
+        {
+            position: absolute;
+            top: 0px;
+            left: 80px;
+            border-bottom: greenyellow solid 4px;
+            z-index: 2;
+            height: 180px;
+            width: 150px;
+            background-color: white;
+            box-shadow: 0 0 10px black;
+        }
+        #doctorslogo
+        {
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            top: 40px;
+            left: 0px;
+        }
+        #name
+        {
+            font-size: 23px;
+            font-weight: 20px;
+            text-align: center;
+            color: red;
+        }
+        #navbar
+        {
+           position: absolute;
+            left: 800px;
+            top: 90px;
+        }
+        #navbarelements
+        {
+            font-weight: bold;
+            padding: 20px;
+        }
+        #navbarelements:hover
+        {
+            color: green;
+            text-decoration: none;
+        }
+        #one:hover,#two:hover,#three:hover
+        {
+            box-shadow: 0 0 15px black;
+        }
+        #addressone
+        {
+            position: absolute;
+            top: 25px;
+            left: 320px;
+            height: 70px;
+            width: 200px;
+            font-size: 0.8em;
+        }
+        #addressonedetails
+        {
+            color: black;
+            opacity: 0.8;
+        }
+        #addresstwo
+        {
+            position: absolute;
+            top: 25px;
+            left: 550px;
+            height: 70px;
+            width: 200px;
+            font-size: 0.8em;
+        }
+        #addresstwodetails
+        {
+            color: black;
+            opacity: 0.8;
+        }
+        #email
+        {
+            position: absolute;
+            top: 25px;
+            left:  850px;
+            font-size: 0.9em;
+        }
+        
+         
+            
+        
+        

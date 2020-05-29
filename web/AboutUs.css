@@ -1,0 +1,76 @@
+        #ourdoctorsmaindiv
+        {
+            position: relative;
+            top: 700px;
+            left: 0px;
+        }
+        #ourdoctorstitlediv
+        {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 40px;     
+        }
+        #ourdoctorstitle
+        {  
+            font-size: 25px;
+            border-bottom: #2831BE 4px solid;
+            font-weight: bold;
+            width: 120%
+        }
+        #doctor1
+        {
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            top: 30px;
+            left: 20px;
+            box-shadow: 0 0 10px black;
+        }
+        #doctor2
+        {
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            top: 30px;
+            left: 20px;
+            box-shadow: 0 0 10px black;
+        }
+        #ourclinicsmaindiv
+        {
+            position: relative;
+            top: 750px;
+            left: 0px;
+        }
+        #ourclinicstitlediv
+        {
+            position: absolute;
+            top: 430px;
+            left: 0px;
+            height: 40px;
+           
+            
+        }
+        #ourclinictitle
+        {  
+            font-size: 25px;
+            border-bottom: #2831BE 4px solid;
+            font-weight: bold;
+             width: 120%
+        }   
+        
+        #clinicone
+        {
+            font-size: 20px;
+            position: absolute;
+            top: 20px;
+            
+        }
+        #clinictwo
+        {
+            font-size: 20px;
+            position: absolute;
+            top: 20px;
+                        
+        }
+        

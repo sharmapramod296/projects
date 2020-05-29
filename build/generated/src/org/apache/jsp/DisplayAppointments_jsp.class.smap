@@ -1,0 +1,20 @@
+SMAP
+DisplayAppointments_jsp.java
+JSP
+*S JSP
+*F
++ 0 DisplayAppointments.jsp
+DisplayAppointments.jsp
+*L
+1,150:60
+150:255,9
+155,2:212
+156:277,17
+157,2:294
+158,14:216
+171:323,11
+172:334
+173,8:335,3
+181,2:359
+182,6:232
+*E

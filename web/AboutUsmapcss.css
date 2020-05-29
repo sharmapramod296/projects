@@ -1,0 +1,32 @@
+#mapsmaindiv
+        {
+            position: relative;
+            top: 1450px;
+            left: 0px;
+        }
+        #map1
+        {
+            position: absolute;
+            top: 45px;
+            left: 0px;
+        }
+        #map2div
+        {
+            position: absolute;
+            top: 10px;
+            left: 600px;
+        }
+        #map2
+        {
+            position: absolute;
+            top: 45px;
+            left: 0px;
+        }
+        #mapstitle
+        {
+            position: absolute; 
+            top: 0px;
+            border-bottom: #2831BE 4px solid ;
+            font-size: 20px;
+            font-weight: bold;
+        }

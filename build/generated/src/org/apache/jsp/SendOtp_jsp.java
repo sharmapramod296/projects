@@ -1,0 +1,173 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class SendOtp_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("    <head>\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
+      out.write("        <title>Send Otp</title>\n");
+      out.write("         <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n");
+      out.write("        <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n");
+      out.write("        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\" integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\" crossorigin=\"anonymous\"></script>\n");
+      out.write("        <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js\" integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\" crossorigin=\"anonymous\"></script>\n");
+      out.write("        \n");
+      out.write("       \n");
+      out.write("        \n");
+      out.write("        <style>\n");
+      out.write("            #sendotpcontent\n");
+      out.write("            {\n");
+      out.write("                background-color: white;\n");
+      out.write("                height:250px;\n");
+      out.write("                width: 350px;\n");
+      out.write("                position: absolute;\n");
+      out.write("                top: 170px;\n");
+      out.write("                left: 600px;\n");
+      out.write("                border-radius: 10px;\n");
+      out.write("                box-shadow: 0px 0px 15px black;\n");
+      out.write("                border-bottom: yellowgreen solid 4px;\n");
+      out.write("            }\n");
+      out.write("            #sendotptitle\n");
+      out.write("            {\n");
+      out.write("                font-size: 25px;\n");
+      out.write("                font-weight: bold;\n");
+      out.write("                text-align: center;\n");
+      out.write("                border-radius: 10px;\n");
+      out.write("                color: white;\n");
+      out.write("            }\n");
+      out.write("            \n");
+      out.write("            #headingdiv\n");
+      out.write("            {\n");
+      out.write("                height: 150px;\n");
+      out.write("                width: 100%;\n");
+      out.write("                background-color: #2831BE;\n");
+      out.write("                position: relative;\n");
+      out.write("                border-bottom: greenyellow 4px solid;           \n");
+      out.write("            }\n");
+      out.write("            #brandname\n");
+      out.write("            {\n");
+      out.write("                position: absolute;\n");
+      out.write("                top: 20px;\n");
+      out.write("                left: 37%;\n");
+      out.write("                color: white;\n");
+      out.write("                font-size: 55px;\n");
+      out.write("                border-bottom: greenyellow 1px solid;\n");
+      out.write("            }\n");
+      out.write("            #brandmoto\n");
+      out.write("            {\n");
+      out.write("                color: white;\n");
+      out.write("                position: absolute;\n");
+      out.write("                top: 95px;\n");
+      out.write("                left: 650px;\n");
+      out.write("            }\n");
+      out.write("            \n");
+      out.write("            #exitusers\n");
+      out.write("            {\n");
+      out.write("                color: red;\n");
+      out.write("                font-size: 20px;\n");
+      out.write("                position: absolute;\n");
+      out.write("                top: 7px;\n");
+      out.write("                right: 30px;\n");
+      out.write("                text-decoration: none;\n");
+      out.write("                border: 1px solid red;\n");
+      out.write("                padding: 3px;\n");
+      out.write("                border-radius: 8px;\n");
+      out.write("            }\n");
+      out.write("            #brandimage\n");
+      out.write("            {\n");
+      out.write("                height: 150px;\n");
+      out.write("                width: 150px;\n");
+      out.write("                position: absolute;\n");
+      out.write("                top: 10px;\n");
+      out.write("                left: 80px;\n");
+      out.write("            }\n");
+      out.write("            #message1\n");
+      out.write("            {\n");
+      out.write("                color: red;\n");
+      out.write("                font-size: 15px;\n");
+      out.write("            }\n");
+      out.write("            input\n");
+      out.write("            {\n");
+      out.write("                height: 40px;\n");
+      out.write("                width: 90%;\n");
+      out.write("                border: greenyellow 1px solid;\n");
+      out.write("            }\n");
+      out.write("        </style>\n");
+      out.write("    </head>\n");
+      out.write("    <body>\n");
+      out.write("        <div id=\"headingdiv\" class=\"container-fluid\">\n");
+      out.write("            <img src=\"images/doctors logo.gif\" alt=\"image not found\" id=\"brandimage\"/>\n");
+      out.write("            <h1 id=\"brandname\"><span style=\"font-size: 65px;\">J</span>anta clinic</h1>\n");
+      out.write("            <p id=\"brandmoto\">We care about your health</p>\n");
+      out.write("            <a href=\"Home.jsp\" id=\"exitusers\">Exit</a>\n");
+      out.write("        </div>\n");
+      out.write("        <br>\n");
+      out.write("    <center>\n");
+      out.write("        <div id=\"sendotpcontent\">\n");
+      out.write("                    <div id=\"sendotptitlediv\">\n");
+      out.write("                          <p style=\"background-color: #2831BE;height:40px;\"id=\"sendotptitle\">Send OTP</p>\n");
+      out.write("                      </div>\n");
+      out.write("        <form action=\"SendOtpController\" method=\"post\">\n");
+      out.write("            <label id=\"email\">Enter your e-mail address :</label><br>\n");
+      out.write("            <input id=\"email\" type=\"email\" name=\"email\" placeholder=\"Email address\"/><br><br>\n");
+      out.write("            <button type=\"submit\" class=\"btn btn-success\">Send OTP</button>\n");
+      out.write("            <p id=\"message1\">Make sure that the entered email address is already registered.</p>\n");
+      out.write("        </form>\n");
+      out.write("        </div>\n");
+      out.write("    </center>\n");
+      out.write("    </body>\n");
+      out.write("</html>\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}

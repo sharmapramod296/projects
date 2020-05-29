@@ -1,0 +1,56 @@
+ #makeanappointmentmain
+        {
+            background-color: rgba(0,0,0,0.7);
+            height: 2000px;
+            width: 120%;
+            position: relative;
+            
+        }
+        #makeanappointmentcontent
+        {
+            background-color: white;
+            height: 600px;
+            width: 400px;
+            position: absolute;
+            top: 100px;
+            left: 500px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px black;
+            border-bottom: yellowgreen solid 4px;
+        }
+        #title
+        {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 10px;
+            color: white;
+           
+        }
+        input,textArea
+        {
+            width: 380px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            border-bottom: black solid 1px;    
+        }
+        input:hover,textarea:hover
+        {
+            border-bottom: yellowgreen solid 2px;
+        }
+      
+        #close
+        {
+            font-size: 42px;
+            position: absolute;
+            top: -15px;
+            left: 370px;
+            transform: rotate(45deg);
+            cursor: pointer;
+            color:white;
+        }
+        #close:hover
+        {
+            color:red;
+        }
